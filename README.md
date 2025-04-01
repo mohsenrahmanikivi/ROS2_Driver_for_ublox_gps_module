@@ -1,19 +1,19 @@
-## ublox
+# ublox
 The `ublox` package provides support for [u-blox](http://www.u-blox.com) GPS receivers. Only the _serial_ configuration of the driver is documented here, but TCP/UDP communication is also supported by the driver (untested).
 
 The driver was originally written by Johannes Meyer. Changes made later are detailed in the version history below.
 
-## Install
+# Install
 
-# Requirments:
+## Requirments:
 Install Asio (If not installed)
 On Ubuntu/Debian:
 <code>sudo apt update && sudo apt install libasio-dev</code>
 
-# Install diagnostic_updater (If not installed)
+## Install diagnostic_updater (If not installed)
 <code>sudo apt install ros-humble-diagnostic-updater  # Replace "humble" with your ROS version</code>
 
-# Build
+## Build
 <code>[workspaces]/colcon build</code>
 
 ## Launch
