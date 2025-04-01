@@ -26,7 +26,10 @@ The two topics to which you should subscribe are `~fix` and `~fix_velocity`. The
 
 <code>ros2 launch /home/user/ros2_ws/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node-launch.py</code>
 
+## Launch
+Visualizing with Mapriz.
 
+https://swri-robotics.github.io/mapviz/
 
 ## Options
 
