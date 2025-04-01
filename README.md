@@ -8,18 +8,23 @@ The driver was originally written by Johannes Meyer. Changes made later are deta
 ## Requirments:
 Install Asio (If not installed)
 On Ubuntu/Debian:
+
 <code>sudo apt update && sudo apt install libasio-dev</code>
 
 ## Install diagnostic_updater (If not installed)
-<code>sudo apt install ros-humble-diagnostic-updater  # Replace "humble" with your ROS version</code>
+
+<code>sudo apt install ros-humble-diagnostic-updater  </code>
 
 ## Build
+
 <code>[workspaces]/colcon build</code>
 
 ## Launch
 
 A sample launch file `ublox_device.launch` loads the parameters from a `.yaml` file in the `ublox_gps/config` folder, sample configuration files are included. The required arguments are `node_name` and `param_file_name`.
 The two topics to which you should subscribe are `~fix` and `~fix_velocity`. The angular component of `fix_velocity` is unused.
+
+<code>ros2 launch /home/user/ros2_ws/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node-launch.py</code>
 
 
 
