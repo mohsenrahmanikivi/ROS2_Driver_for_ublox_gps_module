@@ -31,6 +31,10 @@ Visualizing with Mapviz.
 
 https://swri-robotics.github.io/mapviz/
 
+or
+Rviz2 pluginf (Aerial map)
+https://github.com/nobleo/rviz_satellite/
+
 ## Options
 
 Example .yaml configuration files are included in `ublox_gps/config`. Consult the u-blox documentation for your device for the recommended settings.
